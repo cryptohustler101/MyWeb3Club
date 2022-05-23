@@ -23,6 +23,7 @@ contract MyWeb3Club{
         uint joinCount;
     }
     
+    
 
     mapping(address=>User) public UsersMapping;
     mapping(uint=>Club) public ClubsMapping;
